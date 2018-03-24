@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+   app:showAsAction="never">
+
+
+
+        <item
+            android:id="@+id/search_id"
+            android:title="Search"
+            app:showAsAction="never"
+            android:orderInCategory="100"
+            android:icon="@drawable/magnifier"
+            ></item>
+
+        <item
+            android:id="@+id/Buildings_id"
+            android:title="Buildings"
+            android:orderInCategory="100"
+            android:icon="@drawable/buldings"
+            app:showAsAction="never"
+            ></item>
+
+        <item
+            android:id="@+id/facilities_id"
+            android:title="Facilities"
+            android:icon="@drawable/mosque"
+            app:showAsAction="never"
+            android:orderInCategory="100"
+
+            ></item>
+
+        <item
+            android:id="@+id/position_id"
+            android:title="Positions"
+            android:icon="@drawable/positon"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            ></item>
+
+        
+
+</menu>

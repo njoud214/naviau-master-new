@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gates_id"
+            android:title="Gates"
+            android:icon="@drawable/halls"
+            ></item>
+
+        <item
+            android:id="@+id/Buildings_id"
+            android:title="Buildings"
+            android:icon="@drawable/icon5"
+            ></item>
+
+        <item
+            android:id="@+id/halls_id"
+            android:title="Halls"
+            android:icon="@drawable/halls"
+            ></item>
+
+        <item
+            android:id="@+id/nursery_id"
+            android:title="Nursery"
+            android:icon="@drawable/nursery"
+            ></item>
+
+        <item
+            android:id="@+id/library_id"
+            android:title="Library"
+            android:icon="@drawable/library"
+            ></item>
+
+        <item
+            android:id="@+id/clinic_id"
+            android:title="Clinic"
+            android:icon="@drawable/clinic"
+            ></item>
+
+        <item
+            android:id="@+id/gym_id"
+            android:title="Gym"
+            android:icon="@drawable/gym"
+            ></item>
+    </group>
+</menu>
